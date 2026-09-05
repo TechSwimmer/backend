@@ -13,7 +13,7 @@ import { observable } from '@trpc/server/observable'
 // - listen for that event 
 // In this example, the "update" event is emitted whenever 
 // a user is updated.
-import { EventEmitter } from 'stream'
+import { EventEmitter } from 'node:events'
 
 // usersProcedure defines a reusable base procedure requiring userId. 
 // The get procedure uses that input requirement unchanged, while the

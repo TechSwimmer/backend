@@ -4,8 +4,6 @@
     "@fastify/helmet": "^13.1.1",
     "@fastify/jwt": "^10.2.2",
     "@fastify/websocket": "^11.3.0",
-    "@prisma/client": "^7.10.0",
-    "@prisma/orm-mongo": "^8.0.0-rc.8",
     "@trpc/server": "^11.18.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
@@ -15,10 +13,8 @@
     "zod": "^4.5.2"
   },
   "devDependencies": {
-    "@prisma/cli-engine": "^0.2.3",
     "@types/node": "^26.4.1",
     "@types/ws": "^8.18.1",
-    "prisma": "^8.0.0-rc.10",
     "tsx": "^4.23.12"
   },
   "scripts": {
